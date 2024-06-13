@@ -165,7 +165,7 @@ jobs:
 #          -Dsonar.projectKey=yes25-5-order-payment \
 #          -Dsonar.projectName='yes25-5-order-payment' \
 #          -Dsonar.host.url=http://133.186.241.167:9000 \
-#          -Dsonar.token= sqp_10d909cc9b8071ab70dbfd97aa2a22ad30d1d14b
+#          -Dsonar.token=
 #      #          -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
 #      #          -Dsonar.token= ${{ secrets.SONAR_TOKEN }}
 #
@@ -181,44 +181,9 @@ jobs:
 #
 #      - name: Upload JAR to Remote Server
 #        env:
-#          SSH_PRIVATE_KEY: "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
-#  NhAAAAAwEAAQAAAYEAsN0dMuPTNhtCnMmH2QpglUdDfWB3IhRcwMDJWyg8M9qxe7/Yy8pQ
-#  g7TiMRZamv/Q3LLYOHjQvs4BzK6v8sOD3L7UtL79KW9hxPLatQDeBOMzqXsrH5awWcknps
-#  ul2oJ2iUH2KMnNmh2kgBylH/cbg7wc1b5E1aeNi/SWslJ3xrmdozmgHE6CG04GX+uVWEI6
-#  ULRgkh+HgBcILzW9tmaspn+yUQHXOyZxcwlNkpSlKSvpZru9yOZQSIi5a79zitxq0LXOqj
-#  uJ+5wJ/UG7eVO31tcVZZbummPd2WyY7y+6XQucwz/fv6URdur37WxaHvmLnDe3JvJ43cmk
-#  5r6VlTZIXnyM82J27mBsXX57ch2ESlW+K71JITGmYFgD44CHgkhc1wEv25Djay7rHWyrKO
-#  6Cj6/inZqPKTuKu0IIHIybhKxmRej8DR1H3So7a9AK/YqhP4LBZqPQdsEVv8HOF+YwiFLs
-#  1hhRAHkG4nO+XWmZljb4MWEn7iel+3Ajbg3RwPejAAAFiBdINTYXSDU2AAAAB3NzaC1yc2
-#  EAAAGBALDdHTLj0zYbQpzJh9kKYJVHQ31gdyIUXMDAyVsoPDPasXu/2MvKUIO04jEWWpr/
-#  0Nyy2Dh40L7OAcyur/LDg9y+1LS+/SlvYcTy2rUA3gTjM6l7Kx+WsFnJJ6bLpdqCdolB9i
-#  jJzZodpIAcpR/3G4O8HNW+RNWnjYv0lrJSd8a5naM5oBxOghtOBl/rlVhCOlC0YJIfh4AX
-#  CC81vbZmrKZ/slEB1zsmcXMJTZKUpSkr6Wa7vcjmUEiIuWu/c4rcatC1zqo7ifucCf1Bu3
-#  lTt9bXFWWW7ppj3dlsmO8vul0LnMM/37+lEXbq9+1sWh75i5w3tybyeN3JpOa+lZU2SF58
-#  jPNidu5gbF1+e3IdhEpVviu9SSExpmBYA+OAh4JIXNcBL9uQ42su6x1sqyjugo+v4p2ajy
-#  k7irtCCByMm4SsZkXo/A0dR90qO2vQCv2KoT+CwWaj0HbBFb/BzhfmMIhS7NYYUQB5BuJz
-#  vl1pmZY2+DFhJ+4npftwI24N0cD3owAAAAMBAAEAAAGAGKOVL8PBZuZBT2pb/IaPkfxNkK
-#  fhsOO5UDkLVCG00VyEIUNGxo02zkJiyIfes30z8asQqD1ch1hXs9YaOO237wa+xzdcOWuE
-#  6VUT1ud6BqBIUDISfeIWS0vUtE3mmxxVuyVvT5tdgzzh798NufhI4v9P3Q8Ws9UVyQuX+t
-#  u2R/8P0O90OL1PLtKd3LsLITKIwTl/wpuV2uhagYkxFroTD1b21oY1H85pO6duIR+IKsYt
-#  S9yXweckBBbYDgSr6gpuszYnWyh3J34vZ0S5OYAOp3xe8JX/tqta0kX9eFX36jjA+zw5Mz
-#  7csFp75K5oMhG55AqXIzulH42XYYdBHOfGeoQovH7RH61q6lCuYzrlAvuGMz5M+JLgwSLT
-#  a2t9vefulzDXHkmK3AuYw+IJpsUFIRYDwrBPzbNVBJgivgsbtsq6+26N5DlsLEvswG4PvV
-#  MblIwbqfg+yIGgUj0h2qESUIqaM3zFKX6xKNQE2x1F6Z4jQRMai8zIA9dJb+TBTHDhAAAA
-#  wFbyPuEEGHvgov2e8QRT2hVQskM8ucyVrz35wHoufOKx7y3c/h+CTH1h/ZlZ0YwfGVhnIq
-#  t2D09qFCgr+eC0M9Qcb+Xn7hrMs/uSOLulvtpksy9Us3UdPs4mechFi/7AOvp2EEKUkCtH
-#  jTD8rnpQlFltJR+EVV0VY4cr5p0osO8yByj9NOSEPO+aZAwxtWi7udtg62CmXl7xZlvWhf
-#  9/l/t6DrI08oTMx5rntTPKrQ5AiQtX+Nt4w25ijyKzQJi3QQAAAMEA818X8w4KQVNZPbOQ
-#  Cr+wbX0pgatuiGQVEWyWGvuA9pg8pqW7hj+4sQDhSTIV+fuP5AskJfN4kwMD7EHPG8a3YI
-#  ZCXdLrD/D+iMYASG049IjbDDxHLn9D1HakSmuYusQGWOtrGUoT7h0DaLLzWbJD6L+wwCID
-#  4zSF7IzXszviXsYlsooC/Tx96DtvVx1OuRV/3wT42A+64Q/N6bDd2Mcbcg2wBH8k9hDD8A
-#  F4Q1O4htLGoiK3x2vpiavj1FMyhts5AAAAwQC6Corv7z4d16qYS+079Yu24Sv2LOE8ehtI
-#  n0g+0152hs0SwSkBe8e4FgwfQZaC0HLIB+vzLcLLyxbEzVe20TeJv7EFnmr+KSVFuxjb7W
-#  nYcvWp5HxJn4+wgvok+RXFZSTjJ7SFPojllpChTLa4rDyvtee1imtdRK91HhM+z84DHjms
-#  ZSkZivoi6itZUN+AjOHnwyWlSv4RDfSszrTr/JFBplhoMuwMF/6LVyP5Y0uVwUKS0qpHnU
-#  pc0AuVEa3UfbsAAAAQbmhuYWNhZGVteUB5ZXMyNQECAw=="
+#          SSH_PRIVATE_KEY: ""
 #          REMOTE_USER: "nhnacademy"
-#          REMOTE_HOST: 133.186.134.80
+#          REMOTE_HOST:
 #          REMOTE_DIR: "path"
 #          # SSH_PRIVATE_KEY : 원격서버에서 만든 개인키(github_rsa). (github_rsa.pub 아닙니다!)
 #          # SSH_USER : 원격서버 로그인 아이디 (nhnacademy)
