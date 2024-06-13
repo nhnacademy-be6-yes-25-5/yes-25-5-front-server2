@@ -18,6 +18,7 @@ public class HomeController {
         if(ip == null ){
             ip = request.getRemoteAddr();
         }
+        
         model.addAttribute("ip",ip);
         model.addAttribute("port",port);
         return "index";
