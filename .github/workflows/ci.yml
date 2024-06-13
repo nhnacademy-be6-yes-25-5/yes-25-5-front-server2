@@ -48,7 +48,7 @@ jobs:
           # REMOTE_DIR : 배포할 jar 파일 위치 (없다면 mkdir로 만드시면 될 것 같아요.)
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
-          REMOTE_HOST: ${{ secrets.SSH_HOST }} 
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
         run:
           mkdir -p ~/.ssh
