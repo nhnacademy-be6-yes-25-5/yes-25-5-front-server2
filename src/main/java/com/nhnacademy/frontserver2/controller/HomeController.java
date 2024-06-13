@@ -17,7 +17,7 @@ public class HomeController {
         String ip = request.getHeader("x-forwarded-for");
         if(ip == null ){
             ip = request.getRemoteAddr();
-        }
+        } 
         
         model.addAttribute("ip",ip);
         model.addAttribute("port",port);
