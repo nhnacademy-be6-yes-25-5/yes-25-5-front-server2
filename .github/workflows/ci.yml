@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '21'
-          distribution: 'temurin'
+          distribution: 'temurin' 
           cache: 'maven'
 
 #      # SONAR_HOST_URL : 소나큐브 주소
