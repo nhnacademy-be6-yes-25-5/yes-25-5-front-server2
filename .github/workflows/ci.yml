@@ -19,9 +19,11 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
+      - name: Clean with Maven
+        run: mvn clean --batch-mode
 
-#      # SONAR_HOST_URL : 소나큐브 주소
-#      # SONAR_TOKEN : 소나큐브 토큰
+      # SONAR_HOST_URL : 소나큐브 주소
+      # SONAR_TOKEN : 소나큐브 토큰
 #      - name: Execute SonarQube Analysis
 #        run: |
 #          mvn clean verify sonar:sonar \
@@ -29,9 +31,9 @@ jobs:
 #          -Dsonar.projectName='yes25-5-order-payment' \
 #          -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
 #          -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-#
-#      - name: Build with Maven
-#        run: mvn package --batch-mode
+
+      - name: Build with Maven
+        run: mvn package --batch-mode
 #
 #      - name: Publish Unit Test Results
 #        uses: EnricoMi/publish-unit-test-result-action@v2
