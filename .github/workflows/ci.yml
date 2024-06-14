@@ -19,6 +19,8 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
+      - name: Test with Maven
+        run: mvn test --batch-mode --update-snapshots
 
       # SONAR_HOST_URL : 소나큐브 주소
       # SONAR_TOKEN : 소나큐브 토큰
